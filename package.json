@@ -1,0 +1,7 @@
+{
+  "name": "easy-qfnu-guide",
+  "private": false,
+  "type": "module",
+  "scripts": { "validate": "node scripts/validate-guide.js" },
+  "engines": { "node": "22.x" }
+}
