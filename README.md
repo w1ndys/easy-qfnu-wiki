@@ -6,10 +6,9 @@
 
 https://w1ndys.github.io/easy-qfnu-wiki/
 
-当前分类：
+当前只有一个示例分组，用来看目录和页面怎么写：
 
-- `life/`：校园生活
-- `study/`：学习与教务操作
+- `example/sample.md`：示例条目
 
 本地预览：
 

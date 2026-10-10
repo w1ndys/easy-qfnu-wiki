@@ -1,11 +1,10 @@
-// 读取 life/、study/ 下的知识条目，供网页目录和首页使用。
+// 读取分组目录下的知识条目，供网页目录和首页使用。
 import { readdir, readFile } from 'node:fs/promises'
 import { join } from 'node:path'
 
-// 网页上的两个分类，顺序就是侧边栏顺序。
+// 网页分组。顺序就是侧边栏顺序。新增分组时在这里加一项。
 export const sections = [
-  { dir: 'life', text: '生活' },
-  { dir: 'study', text: '学习' }
+  { dir: 'example', text: '示例' }
 ]
 
 // 标题缺失时用文件名，避免一篇坏 front matter 让整个站点构建停掉。
