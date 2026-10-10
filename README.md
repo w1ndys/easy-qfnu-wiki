@@ -6,9 +6,10 @@
 
 https://w1ndys.github.io/easy-qfnu-wiki/
 
-当前只有一个示例分组，用来看目录和页面怎么写：
+当前分组：
 
-- `example/sample.md`：示例条目
+- `life/`：校园生活，现有 `life/express.md`（快递问题）
+- `example/`：示例分组，`example/sample.md` 用来看页面怎么写
 
 本地预览：
 
