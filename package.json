@@ -1,7 +1,16 @@
 {
-  "name": "easy-qfnu-guide",
+  "name": "easy-qfnu-wiki",
   "private": false,
   "type": "module",
-  "scripts": { "validate": "node scripts/validate-guide.js" },
-  "engines": { "node": "22.x" }
+  "scripts": {
+    "validate": "node scripts/validate-guide.js",
+    "index": "node scripts/build-index.js",
+    "dev": "npm run index && vitepress dev",
+    "build": "npm run validate && npm run index && vitepress build",
+    "preview": "npm run index && vitepress preview"
+  },
+  "engines": { "node": "22.x" },
+  "devDependencies": {
+    "vitepress": "1.6.4"
+  }
 }
