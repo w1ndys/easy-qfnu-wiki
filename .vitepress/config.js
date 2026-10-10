@@ -20,8 +20,8 @@ export default defineConfig({
   title: '曲阜师范大学知识库',
   description: '曲阜师范大学校园生活与学习说明。正文在仓库 Markdown。',
   lang: 'zh-CN',
-  // 项目页地址是 https://w1ndys.github.io/easy-qfnu-wiki/
-  base: '/easy-qfnu-wiki/',
+  // Vercel 绑自定义域名时站点在域名根路径；GitHub Pages 是项目页，必须带仓库名前缀。
+  base: process.env.VERCEL ? '/' : '/easy-qfnu-wiki/',
   srcExclude: ['**/README.md'],
   cleanUrls: true,
   lastUpdated: true,
