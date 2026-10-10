@@ -1,4 +1,4 @@
-// VitePress 站点配置。条目仍在仓库根的 life/、study/，不另放一套正文。
+// VitePress 站点配置。条目仍在仓库根的分组目录，不另放一套正文。
 import { defineConfig } from 'vitepress'
 import { listSections } from '../scripts/articles.js'
 
@@ -30,8 +30,7 @@ export default defineConfig({
     sidebar: sidebar(),
     nav: [
       { text: '首页', link: '/' },
-      { text: '生活', link: '/life/campus-card' },
-      { text: '学习', link: '/study/grades' }
+      { text: '示例', link: '/example/sample' }
     ],
     outline: { label: '本页目录' },
     docFooter: { prev: '上一篇', next: '下一篇' },

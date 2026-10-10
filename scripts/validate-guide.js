@@ -2,6 +2,7 @@
 import { readdir, readFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { join } from 'node:path';
+import { sections } from './articles.js';
 
 async function markdownFiles(directory) {
   const result = [];
@@ -14,7 +15,10 @@ async function markdownFiles(directory) {
 }
 
 const root = fileURLToPath(new URL('..', import.meta.url));
-const files = [...await markdownFiles(join(root, 'life')), ...await markdownFiles(join(root, 'study'))];
+const files = [];
+for (const section of sections) {
+  files.push(...await markdownFiles(join(root, section.dir)));
+}
 if (files.length === 0) throw new Error('no guide articles found');
 for (const file of files) {
   const text = await readFile(file, 'utf8');
