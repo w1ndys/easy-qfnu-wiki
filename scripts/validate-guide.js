@@ -13,7 +13,8 @@ async function markdownFiles(directory) {
   return result;
 }
 
-const files = await markdownFiles(fileURLToPath(new URL('..', import.meta.url)));
+const root = fileURLToPath(new URL('..', import.meta.url));
+const files = [...await markdownFiles(join(root, 'life')), ...await markdownFiles(join(root, 'study'))];
 if (files.length === 0) throw new Error('no guide articles found');
 for (const file of files) {
   const text = await readFile(file, 'utf8');
