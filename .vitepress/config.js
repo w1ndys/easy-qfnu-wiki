@@ -31,6 +31,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '生活', link: '/life/express' },
+      { text: '关于', link: '/about/contribute' },
       { text: '示例', link: '/example/sample' }
     ],
     outline: { label: '本页目录' },
