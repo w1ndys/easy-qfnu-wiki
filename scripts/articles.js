@@ -5,6 +5,7 @@ import { join } from 'node:path'
 // 网页分组。顺序就是侧边栏顺序。新增分组时在这里加一项。
 export const sections = [
   { dir: 'life', text: '生活' },
+  { dir: 'about', text: '关于' },
   { dir: 'example', text: '示例' }
 ]
 

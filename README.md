@@ -8,7 +8,8 @@ https://w1ndys.github.io/easy-qfnu-wiki/
 
 当前分组：
 
-- `life/`：校园生活，现有 `life/express.md`（快递问题）
+- `life/`：校园生活，现有 `life/express.md`（快递问题）、`life/water-card.md`（水卡绑定）
+- `about/`：关于本站，现有 `about/contribute.md`（提交收录）
 - `example/`：示例分组，`example/sample.md` 用来看页面怎么写
 
 本地预览：
