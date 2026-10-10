@@ -30,6 +30,7 @@ export default defineConfig({
     sidebar: sidebar(),
     nav: [
       { text: '首页', link: '/' },
+      { text: '生活', link: '/life/express' },
       { text: '示例', link: '/example/sample' }
     ],
     outline: { label: '本页目录' },
