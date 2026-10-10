@@ -17,7 +17,7 @@ function sidebar() {
 }
 
 export default defineConfig({
-  title: '曲阜师大校园知识',
+  title: '曲阜师范大学知识库',
   description: '曲阜师范大学校园生活与学习说明。正文在仓库 Markdown。',
   lang: 'zh-CN',
   // 项目页地址是 https://w1ndys.github.io/easy-qfnu-wiki/

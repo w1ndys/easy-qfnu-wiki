@@ -28,12 +28,12 @@ function catalog(sections) {
 const sections = await listSections()
 const updatedAt = newestUpdate(sections)
 const page = `---
-title: 曲阜师大校园知识
+title: 曲阜师范大学知识库
 updated_at: ${updatedAt}
 editLink: false
 ---
 
-# 曲阜师大校园知识
+# 曲阜师范大学知识库
 
 正文在本仓库的 Markdown，不使用 GitHub Wiki。这里不是学校官网，具体规则以学校最新通知为准。
 

@@ -1,6 +1,6 @@
 # easy-qfnu-wiki
 
-曲阜师范大学校园知识。正文在本仓库的 Markdown，不使用 GitHub Wiki。
+曲阜师范大学知识库。正文在本仓库的 Markdown，不使用 GitHub Wiki。
 
 网页由这些 Markdown 用 VitePress 构建。合并到 `main` 后由 GitHub Actions 发布到：
 
