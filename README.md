@@ -9,6 +9,7 @@
 
 Vercel 的构建配置在仓库根 `vercel.json`（跑 `npm run build`，产物 `.vitepress/dist`）。`base` 按环境自动切：Vercel 上站点在域名根路径，GitHub Pages 是项目页、必须带仓库名前缀。
 域名在 Vercel 项目里绑定，DNS 是 `wiki` 的 CNAME 指向 `vercel.cdn.yt-blog.top`，和账号里其他 Vercel 站点走同一条代理。
+Vercel 项目是 `w1ndys-projects/easy-qfnu-wiki`，已连本仓库，推 `main` 自动部署；项目开着 Deployment Protection（自定义域名除外），所以 `*.vercel.app` 直接打开会要登录，正式域名不受影响。
 
 当前分组：
 
